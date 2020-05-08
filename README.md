@@ -54,7 +54,7 @@ unique: true|
 
 |Column|Type|Options|
 |------|----|-------|
-|group_name|string |null: false,
+|name|string |null: false,
 unique: true|
 
 ### Association
@@ -69,7 +69,7 @@ unique: true|
 |Column|Type|Options|
 |------|----|-------|
 |body|text|
-|image|string|
+|image|text|
 |group_id|references|null: false, foreign_key: true|
 |user_id|references|null: false, foreign_key: true|
 
