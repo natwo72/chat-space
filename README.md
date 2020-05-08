@@ -39,7 +39,7 @@ Things you may want to cover:
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false, 
-add_index: true|
+index: true|
 |email|string|null: false, 
 unique: true|
 
@@ -54,7 +54,7 @@ unique: true|
 
 |Column|Type|Options|
 |------|----|-------|
-|group_name|string |null: false,|
+|group_name|string |null: false,
 unique: true|
 
 ### Association
