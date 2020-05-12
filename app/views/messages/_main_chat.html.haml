@@ -1,0 +1,42 @@
+.main
+  .main__header
+    .main__header__title
+      title
+      %p Member :natsu
+    .main__header__edit-btn
+      = link_to "Edit", '#' 
+  .main__chat
+    .main__chat__messages
+      .main__chat__messages__massege
+        .main__chat___messages__massege__name
+          %p natsu
+        .main__chat__messages__massege__date
+          %p 2020/05/12(thu) 23:59:59
+      .main__chat__messages__text
+        %p texttexttext
+    .main__chat__messages
+      .main__chat__messages__massege
+        .main__chat___messages__massege__name
+          %p natsu
+        .main__chat__messages__massege__date
+          %p 2020/05/12(thu) 23:59:59
+      .main__chat__messages__text
+        %p texttexttext
+    .main__chat__messages
+      .main__chat__messages__massege
+        .main__chat___messages__massege__name
+          %p natsu
+        .main__chat__messages__massege__date
+          %p 2020/05/12(thu) 23:59:59
+      .main__chat__messages__text
+        %p texttexttext
+      
+
+  .main__form
+    %form
+      .input-box
+        %input{type: "text", class: "input-box__text", placeholder: "type a message"}
+        %label{class: "input-box__label"}
+          = icon('far', 'image')
+          %input{type: "file", class: "input-box__label-file"}
+      %input{type: "submit", value: "send", class: "submit-btn"}
