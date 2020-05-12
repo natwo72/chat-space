@@ -1,12 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
 .wrapper {
   display:flex;
 }
-
-
 .main {
   height:100vh;
   width:calc(100vw - 300px);
@@ -37,26 +34,19 @@
     }
     a {
       color:#38aef0;
-      text-decoration: none;
-      
+      text-decoration: none;      
     }
   }
-
-    
-
   &__chat {
     height: calc(100vh - 190px);
     padding: 46px 40px;
     background-color: #fafafa;
     overflow: scroll;
-
     &__messages {
-      padding-bottom: 40px; 
-    
+      padding-bottom: 40px;     
       &__massege{
         display: flex;
         margin-bottom: 10px;
-
         &__name {
           color: #434a54;
           font-size: 16px;
@@ -75,7 +65,6 @@
       }
     }
   }
-
   &__form {
     height:90px;
     background-color: #d2d2d2;
@@ -111,23 +100,8 @@
         cursor: pointer;
       }
     }
-
-
   }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 .side {
   height:100vh;
   width:300px;
@@ -156,14 +130,11 @@
       }    
     }
   }
-
   &__main {
     background-color: #2f3e51; 
-    height:calc(100vh - 100px);
-    
+    height:calc(100vh - 100px);   
     color:#ffffff;
-    font-weight: bold;
-    
+    font-weight: bold;   
     &__group__name {
       font-size:15px;
       padding-top: 20px;
@@ -176,9 +147,6 @@
       margin-left:20px;
       margin-bottom:40px
     }
-
-
-
   }
 } 
 
