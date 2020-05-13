@@ -133,19 +133,25 @@
     background-color: #2f3e51; 
     height:calc(100vh - 100px);   
     color:#ffffff;
-    font-weight: bold;   
-    &__group__name {
-      font-size:15px;
-      padding-top: 20px;
-      padding-left:20px;
-      padding-bottom:5px;
-    }
-    &__group__text {
-      font-size:11px;
-      margin-top:5px;
-      margin-left:20px;
-      margin-bottom:40px
-    }
+    font-weight: bold;
+    .group {
+      a{
+        text-decoration: none;
+        color:#ffffff;
+      }
+      &__name {
+        font-size:15px;
+        padding-top: 20px;
+        padding-left:20px;
+        padding-bottom:5px;
+      }
+      &__text {
+        font-size:11px;
+        margin-top:5px;
+        margin-left:20px;
+        margin-bottom:40px
+      }     
+    }   
   }
 } 
 
